@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  background-image: url(../images/bg.png);
+}
+.form-control {
+  display: block;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 20px;
+}
+.countries-list {
+  margin-left: 50px;
+}
+.countries-list-item:not(:last-child) {
+  margin-bottom: 15px;
+}
+.country {
+  width: 1000px;
+  margin: 50px;
+}
+.country-name {
+  text-align: center;
+}
+.country-data {
+  display: flex;
+  justify-content: space-around;
+}
+.country-img img {
+  width: 300px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.country-info {
+  margin-right: 20px;
+}
+.country-languages {
+  padding: 0;
+}
